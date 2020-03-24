@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS Website Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #0000FF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .button1 {
+      font-size: 16px;
+    }
+
+    .button2 {
+      font-size: 16px;
+    }
+
+    .button3 {
+      font-size: 16px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+  <div class="header ">
+    <h1 style="color:white">Main Menu</h1>
+  </div>
+
+  <div class="container spacing-pad">
+    <div class="row">
+      <button class="button button1" class="btn btn-light" onclick="">Settings</button>
+      <span class="wide-pad"></span>
+      <button class="button button2" class="btn btn-light" onclick="database()">Course Database</button>
+      <span class="wide-pad"></span>
+      <button class="button button3" class="btn btn-light" onclick="logout()">Logout</button>
+    </div>
+  </div>
+  <script src="js.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login Screen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #0000FF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .button1 {
+      font-size: 16px;
+    }
+
+    .button2 {
+      font-size: 16px;
+    }
+
+    .button3 {
+      font-size: 16px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+  <div class="header ">
+    <h1 style="color:white">LionPath 2.0</h1>
+  </div>
+
+  <div class="container spacing-pad">
+    <div class="row">
+      <div class="col-md"></div>
+      <label for="username"><b>Username</b></label>
+      <input type="text" class="form-control" id="classUsername" placeholder="Enter Username" required>
+      <span class="more-padding"></span>
+      <label for="password"><b>Password</b></label>
+      <input type="password" class="form-control" id="classPassword" placeholder="Enter Password" required>
+      <br>
+    </div>
+    <div class="col-auto more-padding">
+      <span class="wide-pad"></span>
+      <span class="wide-pad"></span>
+      <button type="submit" class="btn btn-light" onclick="validate()">Login</button>
+
+
+    </div>
+  </div>
+
+  <script src="js.js" defer></script>
+</body>
+
+</html>
